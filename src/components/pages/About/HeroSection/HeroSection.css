@@ -1,0 +1,55 @@
+.career-page-hero-section {
+  background: url(../../../../../public/assets/bg/bg.jpg);
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.career-page-hero-section-slogan {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 57.5px;
+  color: #ffffff;
+  max-width: 374px;
+}
+
+.career-page-hero-section-paragraph {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  color: #f3f6fa;
+}
+
+.career-page-hero-section-container {
+  max-width: 513px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+@media (max-width: 576px) {
+  .career-page-hero-section-slogan {
+    font-size: 35px;
+    line-height: 38px;
+  }
+
+  .career-page-hero-section-paragraph {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+
+@media (min-width: 575px) and (max-width: 991px) {
+  .career-page-hero-section-slogan {
+    font-size: 40px;
+    line-height: 42px;
+  }
+
+  .career-page-hero-section-paragraph {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
